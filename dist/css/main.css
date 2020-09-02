@@ -76,7 +76,7 @@ p {
   background: #222; }
   @supports (background-blend-mode: multiply) {
     .hero {
-      background: url(../../img/shoe-3.png), radial-gradient(#444, #111);
+      background: url(/dist/img/shoe-3.png), radial-gradient(#444, #111);
       background-blend-mode: multiply;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -138,12 +138,12 @@ p {
       .product__img {
         float: right;
         width: 65%;
-        shape-outside: url(../img/shoe-1.png);
+        shape-outside: url(../dist/img/shoe-1.png);
         shape-margin: 1em;
         margin: 0 -5em 0 0; }
       .product.shoe-white .product__img {
         float: left;
-        shape-outside: url(../img/shoe-2.png);
+        shape-outside: url(../dist/img/shoe-2.png);
         shape-margin: 2em;
         margin: 0 0 0 -5em; } }
 
